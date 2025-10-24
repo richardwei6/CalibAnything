@@ -3,7 +3,7 @@
 #include <pcl/common/transforms.h>
 #include <thread> // NOLINT
 #include <time.h>
-#include <jsoncpp/json/json.h>
+#include <json/json.h>
 
 #include "calibration.hpp"
 
