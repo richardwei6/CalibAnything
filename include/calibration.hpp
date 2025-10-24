@@ -22,8 +22,7 @@ struct PointXYZINS
             int segment; // store segmentation result
         };
     };
-    EIGEN_MAKE_ALIGNED_OPERATOR_NEW
-}EIGEN_ALIGN16;
+};
 
 POINT_CLOUD_REGISTER_POINT_STRUCT(PointXYZINS,
     (float, intensity, intensity)
